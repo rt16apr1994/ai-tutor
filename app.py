@@ -8,12 +8,12 @@ from email.message import EmailMessage
 app = Flask(__name__)
 
 # --- Configurations ---
-genai.configure(api_key="AIzaSyBEuLiW-Ot8l5FRl6vZ-26qppXtT0xgZKI")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Email details
 EMAIL_USER = "rt.16apr1994@gmail.com"
-EMAIL_PASS = "rhiu jkxl xgmb hner"
+EMAIL_PASS = ""
 EXPERT_EMAIL = "rt.16apr1994@gmail.com"
 
 def send_email_to_expert(student_query):
