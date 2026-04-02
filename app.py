@@ -8,7 +8,7 @@ from email.message import EmailMessage
 app = Flask(__name__)
 
 # --- Configurations ---
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key="AIzaSyBEuLiW-Ot8l5FRl6vZ-26qppXtT0xgZKI")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Email details
