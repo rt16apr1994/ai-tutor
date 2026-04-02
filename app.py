@@ -13,7 +13,7 @@ model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Email details
 EMAIL_USER = "rt.16apr1994@gmail.com"
-EMAIL_PASS = "rhiu jkxl xgmb hner"
+EMAIL_PASS = " "
 EXPERT_EMAIL = "rt.16apr1994@gmail.com"
 
 def send_email_to_expert(student_query):
